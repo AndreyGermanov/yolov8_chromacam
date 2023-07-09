@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chroma Key using neural network</title>
+    <style>
+        td {
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+        <tr>
+            <td><img src="./frame.jpg"/><br/></td>
+            <td>
+                <button id="change_background">Change background</button><br/><br/>
+                <strong>Blur: </strong><input id="blur" type="range" min="0" max="50" value="0"/><br/><br/>
+                <button id="reset">Reset</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
