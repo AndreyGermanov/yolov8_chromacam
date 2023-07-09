@@ -1,7 +1,7 @@
-# opencv_webcam_filtering_webapp
-Chroma Cam effect using YOLOv8 neural network.
+# Chroma Cam effect using YOLOv8 neural network.
 
-This web application shows how to remove or blur background around person on a web camera using YOLOv8 neural network
+
+This web application shows how to replace or blur background around person on a web camera using YOLOv8 neural network
 and without green screen.
 
 See demo video: https://youtu.be/pOQBbrPBfW4
