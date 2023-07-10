@@ -82,7 +82,7 @@ def run_camera():
     """
 
     # Connect to the default web camera
-    source = cv2.VideoCapture(1)
+    source = cv2.VideoCapture(0)
 
     # capture frames from web camera every 30 ms
     while True:
