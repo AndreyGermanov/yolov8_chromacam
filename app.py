@@ -68,8 +68,6 @@ def reset():
     if path.isfile("bg.jpg"):
         os.remove("bg.jpg")
     blur = 0
-    x = 0
-    y = 0
     return "OK"
 
 
