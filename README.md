@@ -4,7 +4,7 @@
 This web application shows how to replace or blur background around person on a web camera using YOLOv8 neural network
 and without green screen.
 
-See demo video: https://youtu.be/pOQBbrPBfW4
+See demo video: https://youtu.be/u1pOZzH2T30
 
 It's based on the app from this repository: https://github.com/AndreyGermanov/opencv_webcam_filtering_webapp.
 
