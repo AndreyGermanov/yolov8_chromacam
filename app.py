@@ -82,7 +82,7 @@ def run_camera():
     """
 
     # Connect to the default web camera
-    source = cv2.VideoCapture(0)
+    source = cv2.VideoCapture(1)
 
     # capture frames from web camera every 30 ms
     while True:
@@ -95,8 +95,10 @@ def run_camera():
         # a segmentation mask of a person
         mask = get_person_mask(frame)
 
+
         # change background and/or apply blur
         frame = apply_background_options(frame, mask)
+
 
         cv2.imwrite("temp.jpg", frame)
         os.rename("temp.jpg", "frame.jpg")
@@ -134,8 +136,8 @@ def get_person_mask(frame):
 
 def apply_background_options(frame, mask):
     """
-    Function applies new background and
-    blur for all pixels of specified
+    Function apply new background and
+    or blur for all pixels of specified
     frame except the pixels, that included
     in the person mask 
     """

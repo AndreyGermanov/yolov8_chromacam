@@ -11,9 +11,10 @@ It's based on the app from this repository: https://github.com/AndreyGermanov/op
 This is an addition to the article "[How to implement instance segmentation using YOLOv8 neural network](https://dev.to/andreygermanov/how-to-implement-instance-segmentation-using-yolov8-neural-network-3if9)". 
 
 Read it to understand the code.
+
 ## Install
 
-* Clone this repository: `git clone git@github.com:AndreyGermanov/opencv_webcam_filtering_webapp`
+* Clone this repository: `git clone git@github.com:AndreyGermanov/yolov8_chromacam`
 * Go to the root of cloned repository
 * Install dependencies by running `pip3 install -r requirements.txt`
 
